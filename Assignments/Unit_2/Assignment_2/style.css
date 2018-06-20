@@ -4,7 +4,6 @@ html body {
 	margin: 0;
 	padding: 0;
 	/*Remove this background-color! It is here to make sure that the css and html are linked.*/
-	background-color: #5abaf3;
 }
 
 /*Remove this h1 Rule! */
@@ -13,5 +12,23 @@ h1 {
 	text-align: center;
 	padding-top: 50px;
 	color: white;
+	font-size: 50px;
+}
+
+h2 {
+	text-align: center;
 	font-size: 100px;
+}
+
+#random-btn {
+	background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 12px;
 }
